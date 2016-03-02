@@ -74,6 +74,7 @@ to contain the geometrical properties defined in the GMSH file, the second row
 contains either `'D'` (for a Dirichlet boundary) or `'N'` (for a Neumann 
 boundary) at the respective type of edge. The third row contains a function of 
 two coordinates giving the value of the solution on the boundary,
+
 e.g. `(x,y) -> 0` for homogeneous conditions.
 
 ## solve

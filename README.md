@@ -114,6 +114,7 @@ Then the solution is plotted using `plot_solution`:
 The exact solution in this example is `cos(x*pi/2) * sin(y*pi)`.
 
 The norm can be obtained via `calculate_norm`:
+
 `calculate_norm(mesh,u)`
 
 

@@ -1,6 +1,6 @@
 module EllipticFEM
 
-#using PyPlot
+using PyPlot
 
 export Mesh,read_mesh,assemble,solve,plot_solution,calculate_norm
 
@@ -223,18 +223,18 @@ function solve(meshpath::AbstractString,A::Float64,f::Function,bddata::Array)
 end
 
 ###############################################################################
-#function plot_solution(mesh::Mesh, u::Array; fig::Int = 2)
+function plot_solution(mesh::Mesh, u::Array; fig::Int = 2)
 #plot_solution plots a solution u solved on the mesh "mesh"
-#    x = vec(mesh.nodes[1,:])
-#    y = vec(mesh.nodes[2,:])
-#    l = length(mesh.elements)
-#    triangles = mesh.elements[1:3,:]'-1
-#    figure(fig)
-#    hold(true)
-#    clf()
-#    plot_trisurf(x,y,triangles,vec(u),cmap=ColorMap("jet"))
-#    hold(false)
-#end
+    x = vec(mesh.nodes[1,:])
+    y = vec(mesh.nodes[2,:])
+    l = length(mesh.elements)
+    triangles = mesh.elements[1:3,:]'-1
+    figure(fig)
+    hold(true)
+    clf()
+    plot_trisurf(x,y,triangles,vec(u),cmap=ColorMap("jet"))
+    hold(false)
+end
 
 
 ###############################################################################

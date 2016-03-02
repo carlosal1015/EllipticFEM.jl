@@ -9,4 +9,4 @@ bddata = [1 2 3 4;
 		(x,y)->0 (x,y)->-pi/2*sin(x*pi/2)*sin(y*pi) (x,y)->0 (x,y)->pi/2*sin(x*pi/2)*sin(y	*pi)];
 mesh,u = solve(meshpath,A,f,bddata);
 
-plot_solution(mesh,u)
+#plot_solution(mesh,u)

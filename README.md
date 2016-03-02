@@ -1,7 +1,7 @@
 # EllipticFEM.jl &mdash; a FEM Solver for Elliptic Problems Written in Julia
 ------------------------------------------------------------------------
 
-[![Build Status](https://travis-ci.org/gerhardtulzer/EllipticFEM.jl.svg?branch=master)](https://travis-ci.org/gerhardtulzer/EllipticFEM.jl)
+[![Build Status](https://travis-ci.org/gerhardtulzer/EllipticFEM.svg?branch=master)](https://travis-ci.org/gerhardtulzer/EllipticFEM)
 
 This package provides an implementation of a 2D finite-element method
 for solving elliptic partial differential equations such as the

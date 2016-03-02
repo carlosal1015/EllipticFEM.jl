@@ -105,13 +105,17 @@ bddata = [1 2 3 4;
 mesh, u = solve(meshpath, A, f, bddata);
 ```
 
-Then the solution is plotted using `plot_solution`.
+Then the solution is plotted using `plot_solution`:
 
 `plot_solution(mesh, u)`
 
 ![Example solution.](example_solution.png)
 
 The exact solution in this example is `cos(x*pi/2) * sin(y*pi)`.
+
+The norm can be obtained via `calculate_norm`:
+`calculate_norm(mesh,u)`
+
 
 # Authors
 ---------

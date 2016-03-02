@@ -10,3 +10,5 @@ bddata = [1 2 3 4;
 mesh,u = solve(meshpath,A,f,bddata);
 
 plot_solution(mesh,u)
+
+calculate_norm(mesh,u)

@@ -1,7 +1,0 @@
-
-1) Tested with Julia version 0.4.5.
-2) PyPlot (Julia Package for plotting functions, https://github.com/stevengj/PyPlot.jl)
-3) LightGraphs (Julia Package for mathematical graphs, https://github.com/JuliaGraphs/LightGraphs.jl)
-4) gmsh (Open source meshing program, http://gmsh.info/)
-5) avconv (Open source frames-to-video-converter, https://libav.org/avconv.html)
-6) vlc (Open source video player, http://www.videolan.org/vlc/)

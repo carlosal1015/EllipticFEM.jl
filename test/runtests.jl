@@ -1,2 +1,3 @@
+using Base.Test
 
-include("./Elliptic/runElliptic.jl")
+@test include("./Elliptic/runElliptic.jl") == nothing

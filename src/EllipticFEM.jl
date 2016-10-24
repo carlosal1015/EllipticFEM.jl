@@ -1,3 +1,4 @@
+module EllipticFEM
 
 include("./EquationData/equationData.jl")
 include("./GeoData/geoData.jl")
@@ -11,3 +12,4 @@ include("./InfoData/infoData.jl")
 using PyPlot
 using LightGraphs
 
+end

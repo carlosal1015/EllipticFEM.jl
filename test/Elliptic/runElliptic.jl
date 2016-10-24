@@ -1,12 +1,12 @@
 
-include("../../EquationData/equationData.jl")
-include("../../GeoData/geoData.jl")
-include("../../MeshData/meshData.jl")
-include("../../EquationData to GeoData to MeshData/equationDataToGeoData.jl")
-include("../../EquationData to GeoData to MeshData/geoDataToMeshData.jl")
-include("../../LSEData/lseData.jl")
-include("../../Miscellaneous/miscellaneous.jl")
-include("../../InfoData/infoData.jl")
+include("../../src/EquationData/equationData.jl")
+include("../../src/GeoData/geoData.jl")
+include("../../src/MeshData/meshData.jl")
+include("../../src/EquationData to GeoData to MeshData/equationDataToGeoData.jl")
+include("../../src/EquationData to GeoData to MeshData/geoDataToMeshData.jl")
+include("../../src/LSEData/lseData.jl")
+include("../../src/Miscellaneous/miscellaneous.jl")
+include("../../src/InfoData/infoData.jl")
 
 ##############################################
 

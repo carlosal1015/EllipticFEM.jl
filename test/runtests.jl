@@ -1,4 +1,5 @@
 
+using EllipticFEM
 using Base.Test
 
 include("./Elliptic/runElliptic.jl")

@@ -5,7 +5,7 @@ function lseDataPlot(meshData::MeshData,lseData::LSEData)
 	
 	doToggleFullscreen = false
 	doRedrawCanvas = true
-	doSaveFigures = true
+	doSaveFigures = false
 	doResizeFrames = true
 	doConvertToVideo = true
 	doPlayVideo = false

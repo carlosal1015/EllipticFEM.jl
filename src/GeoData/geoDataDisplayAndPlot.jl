@@ -42,7 +42,7 @@ end
 
 function geoDataPlot(geoData::GeoData)
 	
-	doSaveFigure = true
+	doSaveFigure = false
 	
 	# Define geoNodes plot style:
 	geoNodesVisible = true

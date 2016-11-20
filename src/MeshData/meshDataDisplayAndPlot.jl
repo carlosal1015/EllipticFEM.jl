@@ -100,7 +100,7 @@ end
 
 function meshDataPlot(meshData::MeshData)
 	
-	doSaveFigure = true
+	doSaveFigure = false
 	
 	# Define nodes plot style:
 	nodesVisible = false
@@ -186,7 +186,7 @@ end
 
 function meshDataPlotSlow(meshData::MeshData)
 	
-	doSaveFigure = true
+	doSaveFigure = false
 	
 	# Define nodes plot style:
 	nodesVisible = true

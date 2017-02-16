@@ -38,7 +38,6 @@ push!(infoDataProcessesStopwatches,ProcessStopwatch(-1,"Plot geoData",toq(),true
 ##############################################
 
 intendedMeshsize = 0.02
-
 println("Assemble meshData...")
 tic()
 meshData = geoDataToMeshData(geoData,intendedMeshsize)

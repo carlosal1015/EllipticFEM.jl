@@ -2,6 +2,7 @@
 using EllipticFEM
 using Base.Test
 
+cd("./Elliptic")
 include("./Elliptic/runElliptic.jl")
 
 # testing equationData:

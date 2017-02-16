@@ -5,7 +5,7 @@ function lseDataPlot(meshData::MeshData,lseData::LSEData)
 	
 	doToggleFullscreen = false
 	doRedrawCanvas = true
-	doSaveFigures = false
+	doSaveFigures = true
 	doResizeFrames = true
 	doConvertToVideo = true
 	doPlayVideo = false
@@ -55,7 +55,7 @@ function lseDataPlot(meshData::MeshData,lseData::LSEData)
 	end
 	
 	axis("equal")
-	gca()[:set_title]("Solution",loc="left")
+	#gca()[:set_title]("Solution",loc="left")
 	xlabel("x")
 	ylabel("y")
 	
@@ -90,7 +90,7 @@ function lseDataPlot(meshData::MeshData,lseData::LSEData)
 		end
 		
 		# Set title:
-		gca()[:set_title]("t = "*string(round(lseData.solutionsTimestamps[i],2))*" s",loc="left")
+		#gca()[:set_title]("t = "*string(round(lseData.solutionsTimestamps[i],2))*" s",loc="left")
 		
 		# Make changes visible in current figure:
 		if doRedrawCanvas

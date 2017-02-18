@@ -13,10 +13,11 @@ addons:
   apt:
     packages:
     - gmsh
+    - libav-tools
 # uncomment the following lines to override the default test script
 script:
   - if [[ -a .git/shallow ]]; then git fetch --unshallow; fi
-  - if [[ `uname` = "Darwin" ]]; then brew install homebrew/science/gmsh; fi
+  - if [[ `uname` = "Darwin" ]]; then brew install homebrew/science/gmsh libav; fi
   - julia -e 'ENV["PYTHON"] = ""; Pkg.clone("PyPlot"); Pkg.build("PyPlot")'
 #- julia -e 'ENV["PYTHON"] = ""; Pkg.clone("PyCall"); using PyPlot'
   - julia -e 'Pkg.clone(pwd()); Pkg.build("EllipticFEM"); Pkg.test("EllipticFEM"; coverage=true)'
